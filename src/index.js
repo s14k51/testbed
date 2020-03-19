@@ -14,3 +14,9 @@ function sayY() {
 
   return isBoolean(y, 3);
 }
+
+function sayY() {
+  const y = 1;
+
+  return isBoolean(y, 3);
+}
