@@ -1,5 +1,8 @@
 const isBoolean = require("lodash/isBoolean");
 
+const str = "hello";
+const str2 = "hello2";
+
 function sayX() {
   const x = 1;
 
