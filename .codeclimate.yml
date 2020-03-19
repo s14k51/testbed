@@ -1,8 +1,14 @@
 version: "2"
-checks:
-  similar-code:
+plugins:
+  duplication:
+    enabled: true
     config:
-      threshold: 0
-  identical-code:
-    config:
-      threshold: 0
+      dump_ast: true
+      debug: true
+    checks:
+      similar-code:
+        config:
+          threshold: 0
+      identical-code:
+        config:
+          threshold: 0
