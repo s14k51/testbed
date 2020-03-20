@@ -1,10 +1,4 @@
 version: "2"
-plugins:
-  duplication:
-    enabled: true
-    config:
-      dump_ast: true
-      debug: true
 checks:
   identical-code:
     config:
