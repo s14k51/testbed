@@ -5,18 +5,24 @@ const str = "hello",
 
 function sayX() {
   const x = 1;
+  const y = 2;
+  const z = 5;
 
   return isBoolean(x, 2);
 }
 
 function sayY() {
-  const y = 1;
+  const x = 1;
+  const y = 2;
+  const z = 5;
 
   return isBoolean(y, 3);
 }
 
 function sayY() {
-  const y = 1;
+  const x = 1;
+  const y = 2;
+  const z = 5;
 
   return isBoolean(y, 3);
 }
