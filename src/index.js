@@ -15,5 +15,10 @@ function sayX() {
     console.log("ello");
   }
 
-  return true ? x : isBoolean(x, 2);
+  // return true ? x : isBoolean(x, 2);
+  if (true) {
+    return x;
+  } else {
+    return isBoolean(x, 2);
+  }
 }
