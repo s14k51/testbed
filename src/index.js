@@ -12,7 +12,7 @@ function sayX() {
     console.log(x);
   }
 
-  if (x && y) {
+  if ((x && y) || z) {
     // 2
     if (true) {
       // 2
