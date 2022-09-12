@@ -15,5 +15,5 @@ function sayX() {
     console.log("ello");
   }
 
-  return isBoolean(x, 2);
+  return true ? x : isBoolean(x, 2);
 }
