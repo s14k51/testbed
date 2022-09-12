@@ -11,14 +11,9 @@ function sayX() {
     console.log(x);
   }
 
-  if ((x && y) || z) {
+  if (x && y && z) {
     console.log("ello");
   }
 
-  // return true ? x : isBoolean(x, 2);
-  if (true) {
-    return x;
-  } else {
-    return isBoolean(x, 2);
-  }
+  return true ? x : isBoolean(x, 2);
 }
